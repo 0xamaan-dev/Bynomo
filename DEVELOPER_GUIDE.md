@@ -63,6 +63,8 @@ This will install all required packages including:
 
 ### 1. Create `.env` file
 
+Start from the example template and never commit your real secrets:
+
 ```bash
 cp .env.example .env
 ```
