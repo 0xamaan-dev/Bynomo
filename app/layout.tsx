@@ -22,6 +22,7 @@ const orbitron = Orbitron({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://bynomo.vercel.app'),
   title: "Bynomo - Trade over 300+ Crypto, Stocks, Metals and Forex on BNB Chain",
   description:
     "On-chain binary options trading dApp on BNB Chain. Powered by Pyth Hermes price attestations and Supabase. Oracle-bound resolution, minimal trust.",

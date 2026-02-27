@@ -14,6 +14,14 @@ Powered by **BNB Chain (BSC)** + **Pyth Hermes** price attestations + **Supabase
 
 **Main treasury (BNB Chain):** [`0xE7cD1B07900eB06D59E5b3B3C65033C484E41009`](https://bscscan.com/address/0xE7cD1B07900eB06D59E5b3B3C65033C484E41009)
 
+### Links
+
+| Resource | URL |
+|----------|-----|
+| **Live app (trade)** | [https://bynomo.vercel.app/trade](https://bynomo.vercel.app/trade) |
+| **Pitch deck** | [Google Slides](https://docs.google.com/presentation/d/1kDVnUCeJ-LZ3dfpo_YsSqen6qSzlgzHFWFk79Eodj9A/edit?usp=sharing) |
+| **GitHub** | [https://github.com/0xamaan-dev/Bynomo](https://github.com/0xamaan-dev/Bynomo) |
+
 ---
 
 ## Evaluation repository

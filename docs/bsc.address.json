@@ -10,6 +10,7 @@
     }
   ],
   "frontendUrl": "https://bynomo.vercel.app",
+  "appTradeUrl": "https://bynomo.vercel.app/trade",
   "backendApi": "https://bynomo.vercel.app/api",
   "notes": "Replace treasury address and URLs with your deployed values. For local dev use yarn dev (frontend: http://localhost:3000). Only deposits and withdrawals hit the chain; bets are settled off-chain via Pyth Hermes."
 }

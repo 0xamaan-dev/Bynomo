@@ -196,6 +196,9 @@ This section describes **one suggested demo flow** for judges.
 
 ### Access
 
+**Production (no setup):** Open [https://bynomo.vercel.app/trade](https://bynomo.vercel.app/trade) in your browser.
+
+**Local:**  
 1. Start the dev server:
 
 ```bash

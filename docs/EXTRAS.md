@@ -1,14 +1,17 @@
 # Optional: Demo Video & Presentation
 
-If you want to link supporting material, you can use the fields below.
+Supporting material for demos and judging.
 
 ---
+
+- **Live app** — Production deployment (default trading page).  
+  Link: [https://bynomo.vercel.app/trade](https://bynomo.vercel.app/trade)
+
+- **Pitch deck** — Slide deck (Google Slides).  
+  Link: [Bynomo Pitch Deck](https://docs.google.com/presentation/d/1kDVnUCeJ-LZ3dfpo_YsSqen6qSzlgzHFWFk79Eodj9A/edit?usp=sharing)
 
 - **Demo video** — Unlisted YouTube or similar link.  
   Link: _TBD_
 
-- **Slide deck** — Text‑friendly PDF or shared document.  
-  Link: _TBD_
-
-> Note: Bynomo is designed so that judges can get a full understanding from the repository alone. Video and slides are optional and should **reinforce**, not replace, what’s documented here.
-
+- **GitHub** — Source code and docs.  
+  Link: [https://github.com/0xamaan-dev/Bynomo](https://github.com/0xamaan-dev/Bynomo)
