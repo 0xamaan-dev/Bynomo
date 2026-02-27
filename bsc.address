@@ -1,0 +1,19 @@
+# Bynomo — BNB Chain Addresses
+#
+# This file lists key on-chain addresses for Bynomo on BNB Chain,
+#
+# Networks:
+# - bsc-mainnet: BNB Smart Chain mainnet
+# - bsc-testnet: BNB Smart Chain testnet (if used for staging/demo)
+
+[[address]]
+name = "BynomoTreasury"
+network = "bsc-mainnet"
+type = "EOA"
+address = "0xE7cD1B07900eB06D59E5b3B3C65033C484E41009"
+explorer = "https://bscscan.com/address/0xE7cD1B07900eB06D59E5b3B3C65033C484E41009"
+notes = "Primary Bynomo BNB treasury for deposits and withdrawals. Core binary options logic currently runs off-chain against this treasury."
+
+# If you deploy additional contracts (e.g. multi-sig, vault, token),
+# add them here in the same format, with clear names and explorer links.
+
