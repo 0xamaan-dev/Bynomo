@@ -14,6 +14,14 @@ address = "0xE7cD1B07900eB06D59E5b3B3C65033C484E41009"
 explorer = "https://bscscan.com/address/0xE7cD1B07900eB06D59E5b3B3C65033C484E41009"
 notes = "Primary Bynomo BNB treasury for deposits and withdrawals. Core binary options logic currently runs off-chain against this treasury."
 
+[[address]]
+name = "BynomoTreasury (contract)"
+network = "bsc-mainnet"
+type = "contract"
+address = "0x2CdA441bA79F54E1dE7c366dF09c260247941760"
+explorer = "https://bsctrace.com/address/0x2CdA441bA79F54E1dE7c366dF09c260247941760?tab=transaction&p=1"
+notes = "BynomoTreasury smart contract deployment on BNB Chain."
+
 # If you deploy additional contracts (e.g. multi-sig, vault, token),
 # add them here in the same format, with clear names and explorer links.
 

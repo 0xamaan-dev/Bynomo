@@ -12,7 +12,7 @@ Powered by **BNB Chain (BSC)** + **Pyth Hermes** price attestations + **Supabase
 
 *Trade binary options with oracle-bound resolution and minimal trust.*
 
-**Main treasury (BNB Chain):** [`0xE7cD1B07900eB06D59E5b3B3C65033C484E41009`](https://bscscan.com/address/0xE7cD1B07900eB06D59E5b3B3C65033C484E41009)
+**Main treasury (BNB Chain):** [`0xE7cD1B07900eB06D59E5b3B3C65033C484E41009`](https://bscscan.com/address/0xE7cD1B07900eB06D59E5b3B3C65033C484E41009) · [`0x2CdA441bA79F54E1dE7c366dF09c260247941760`](https://bsctrace.com/address/0x2CdA441bA79F54E1dE7c366dF09c260247941760?tab=transaction&p=1)
 
 ### Links
 
