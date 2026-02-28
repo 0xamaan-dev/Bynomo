@@ -10,9 +10,9 @@ This document walks through the **end‑to‑end journey** for a typical Bynomo 
 flowchart TD
     A[Discover Bynomo] --> B[Land on Homepage]
     B --> C[Connect Wallet or Social Login]
-    C --> D[Sign Message<br/>(non-custodial auth)]
-    D --> E[Create Profile<br/>&amp; House Balance Record]
-    E --> F[Guided Tour<br/>(Classic &amp; Box)]
+    C --> D["Sign Message (non-custodial auth)"]
+    D --> E["Create Profile & House Balance Record"]
+    E --> F["Guided Tour (Classic & Box)"]
     F --> G[Prompt to Deposit BNB]
 ```
 
@@ -57,17 +57,17 @@ sequenceDiagram
 
 ```mermaid
 flowchart TD
-    A[House Balance Ready] --> B[Select Asset<br/>(e.g. BTC/USDT)]
-    B --> C[Choose Round Duration<br/>(5s–1m)]
+    A[House Balance Ready] --> B["Select Asset (e.g. BTC/USDT)"]
+    B --> C["Choose Round Duration (5s–1m)"]
     C --> D[Up or Down]
     D --> E[Enter Stake in BNB]
     E --> F[Confirm Bet]
     F --> G[Price Stream from Pyth Hermes]
     G --> H[Wait for Expiry]
     H --> I{Price Higher or Lower?}
-    I -->|Win| J[Credit Winnings<br/>to House Balance]
-    I -->|Lose| K[Debit Stake<br/>from House Balance]
-    J --> L[View History &amp; Share PnL]
+    I -->|Win| J["Credit Winnings to House Balance"]
+    I -->|Lose| K["Debit Stake from House Balance"]
+    J --> L["View History & Share PnL"]
     K --> L
 ```
 
@@ -84,15 +84,15 @@ flowchart TD
 ```mermaid
 flowchart TD
     A[House Balance Ready] --> B[Open Box Mode]
-    B --> C[View Tiled Chart<br/>with Multipliers]
-    C --> D[Tap Tile(s)<br/>with Desired Multiplier]
+    B --> C["View Tiled Chart with Multipliers"]
+    C --> D["Tap Tile(s) with Desired Multiplier"]
     D --> E[Enter Total Stake]
     E --> F[Confirm Bet]
     F --> G[Price Stream from Pyth Hermes]
     G --> H[Timer Countdown]
     H --> I{Price Touches Tile?}
-    I -->|Yes| J[Win: Payout = Stake x Multiplier]
-    I -->|No| K[Loss: Stake Burned]
+    I -->|Yes| J["Win: Payout = Stake x Multiplier"]
+    I -->|No| K["Loss: Stake Burned"]
     J --> L[Credit Winnings to House Balance]
     K --> L
 ```
@@ -116,11 +116,11 @@ sequenceDiagram
     participant W as Wallet
 
     U->>UI: Click "Withdraw"
-    UI->>DB: Check house balance &amp; cool‑down
+    UI->>DB: Check house balance and cooldown
     DB-->>UI: Eligible amount
     U->>UI: Confirm withdrawal amount
-    UI->>DB: Debit balance &amp; create payout request
-    DB->>T: Sign &amp; send on‑chain transfer
+    UI->>DB: Debit balance and create payout request
+    DB->>T: Sign and send on-chain transfer
     T-->>W: Send BNB to user address
     W-->>U: BNB received in wallet
     UI-->>U: Status updated to "Completed"
@@ -137,7 +137,7 @@ sequenceDiagram
 
 ```mermaid
 flowchart LR
-    A[Visitor] --> B[First‑time Player]
+    A[Visitor] --> B[First-time Player]
     B --> C[Engaged Trader]
     C --> D[Power User / Referrer]
     D --> E[Community Member / Governance]
