@@ -20,6 +20,7 @@ Powered by **BNB Chain (BSC)** + **Pyth Hermes** price attestations + **Supabase
 |----------|-----|
 | **Live app (trade)** | [https://bynomo.vercel.app/trade](https://bynomo.vercel.app/trade) |
 | **Pitch deck** | [Google Slides](https://docs.google.com/presentation/d/1kDVnUCeJ-LZ3dfpo_YsSqen6qSzlgzHFWFk79Eodj9A/edit?usp=sharing) |
+| **Demo video** | [YouTube](https://youtu.be/pjFNfzP9laA) |
 | **GitHub** | [https://github.com/0xamaan-dev/Bynomo](https://github.com/0xamaan-dev/Bynomo) |
 
 ---
